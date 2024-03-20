@@ -13,7 +13,7 @@ app.use(cors());  /* To avoid cross origin error */
 app.use(express.json());  
 
 const PORT = 3000;
-const URL = "mongodb://localhost:27017/StudentMentor";
+const URL = "mongodb+srv://lamadev:8jrqyCXOkW7uWEtw@cluster0.pbqp57k.mongodb.net/StudentMentor";
 
 const mongoose = require('mongoose');
 
